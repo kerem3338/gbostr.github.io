@@ -1,0 +1,18 @@
+.info, .tips, .warning {
+ line-height: 22px;
+ min-height: 38px;
+ padding: 10px 12px 12px 68px;
+ margin: 5px 0;
+}
+.info {
+ background: #e0e5eb url('http://2.bp.blogspot.com/-3rcGQ-VAKb8/UlA4L72c6wI/AAAAAAAAFtY/f__fkV_xBsQ/s1600/info.png') no-repeat 12px 8px;
+ color: #222
+}
+.tips {
+ background: #7CADDE url('http://2.bp.blogspot.com/-_Y9kuQODeBs/UlA4LwDUkhI/AAAAAAAAFtk/Rm0QwoddGLw/s1600/tips.png') no-repeat 12px 8px;
+ color: #fff;
+}
+.warning {
+ background: #db6161 url('http://2.bp.blogspot.com/-rgsBmdJYFkM/UlA4LyWCrqI/AAAAAAAAFtc/suIf3IwnpgE/s1600/warning.png') no-repeat 12px 8px;
+ color: #fff;
+}
