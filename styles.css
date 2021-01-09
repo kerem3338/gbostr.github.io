@@ -1,18 +1,35 @@
-.info, .tips, .warning {
- line-height: 22px;
- min-height: 38px;
- padding: 10px 12px 12px 68px;
- margin: 5px 0;
-}
-.info {
- background: #e0e5eb url('http://2.bp.blogspot.com/-3rcGQ-VAKb8/UlA4L72c6wI/AAAAAAAAFtY/f__fkV_xBsQ/s1600/info.png') no-repeat 12px 8px;
- color: #222
-}
-.tips {
- background: #7CADDE url('http://2.bp.blogspot.com/-_Y9kuQODeBs/UlA4LwDUkhI/AAAAAAAAFtk/Rm0QwoddGLw/s1600/tips.png') no-repeat 12px 8px;
- color: #fff;
-}
-.warning {
- background: #db6161 url('http://2.bp.blogspot.com/-rgsBmdJYFkM/UlA4LyWCrqI/AAAAAAAAFtc/suIf3IwnpgE/s1600/warning.png') no-repeat 12px 8px;
- color: #fff;
-}
+<style type="text/css">
+.classname {
+	background-color:#44c767;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.classname:hover {
+	background-color:#5cbf2a;
+}.classname:active {
+	position:relative;
+	top:1px;
+}</style>
