@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>wea oyun motoru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 style="color:red;">Not: wea hala halka kapalıdır</h1><br>
+<h3>merhaba öncelikle wea ne diye sorarsanız wea bir oyun motorudur kullanımı basit ve kolaydır<br>
+sponsorumuz dijital aslanlar ile birlikte oyun motorumuzu geliştirmeye devam ediyoruz<br></h3>
+</body>
+</html>
