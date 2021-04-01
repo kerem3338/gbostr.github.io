@@ -1,0 +1,3 @@
+<%
+    HelloWorldLabel.Text = "Hello, world!";
+%>
