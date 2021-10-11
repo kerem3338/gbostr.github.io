@@ -8,7 +8,8 @@ body {
 	text-align: center;
 	border: #0000 solid;
 	position: absolute;
-	background-color: #6eba1c;
+	background-color: lightgray;
+	border-radius: 1%;
 	border-color: #2a2e2b;
 	height: 400;
   	width: 1300;
