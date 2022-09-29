@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Cevaplaycıcı</title>
+        <meta name="description" content="Siz sorun Cevaplaycıcı sizin yerinize karar versin">
+        <meta name="author" content="Zoda">
+        <script src="cevaplayici.js"></script>
+    </head>
+<style>
+    textarea {
+        width: 500px;
+        border-style: outset;
+        border-radius: 10px;
+    }
+
+</style>
+<body>
+
+<center>
+    <h1>CEVAPLAYICI</h1>
+    <p style="font-family: OSWALD;">EVET veya HAYIR sorusu sorun cevaplayıcı bilsin!</p>
+    <button onclick="window.location.href='/'">ANA Sayfa</button>
+    <p id="sonuc"></p>
+    <p id="sonuc1"></p>
+    <hr><br>
+    <textarea id="soru" rows="10" style="background-color: gray;"></textarea><br><br>
+    <button onclick="cevapla(document.getElementById('soru').innerText);">Cevabı iste</button>
+</center>
+</body>
+
+</html>

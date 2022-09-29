@@ -1,0 +1,1 @@
+setTimeout(() => alert("Neden Bu kadar bekledin?"), 200000)

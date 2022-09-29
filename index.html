@@ -16,8 +16,24 @@
 		<p>
 			<b>Merhaba, ben Zoda yazılım ile ilgileniyorum burada projelerimi bulabilirsiniz</b><br><br>
 			<button onclick="window.location.href='projelerim/index.html';">Projelerim</button><br><br>
-			<button onclick="window.location.href='animasyonlar/index.html';">Animasyonlarım</button></p><br>
-			<img src="github.png" width="50" height="50"><br><br><button onclick="window.location.href='https://github.com/kerem3338';">Github</button>
-		</p>
+			<button onclick="window.location.href='araclar/cevaplayici.html';">Cevaplayıcı</button><br><br>
+			<button onclick="window.location.href='sanat/index.html';">Sanat</button>
+		</p><br>
+			<img src="github.png" width="50" height="50"><br><br><button onclick="window.location.href='https://github.com/kerem3338';">Github</button><br><br>
+			<img src="https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png" width="50" height="50"><br><br><button id="reddit" onclick="window.location.href='https://reddit.com/u/TROL-OYUNCU';">Reddit</button>
+		</p>		
 	</div>
+	
+	
+	<strong style="position: fixed; bottom: 0;"><small>PSST esc bas</small></strong>
+	<script>
+	const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const showimage1 = urlParams.get("reddit")
+		console.log(urlParams);
+        if (showimage1 === "false") {
+			const reddit=document.getElementById("reddit");
+			reddit.onclick="alert('Bakımdayız');";
+		}
+	</script>
 </body>

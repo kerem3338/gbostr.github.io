@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Zoda's creator area</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<link rel="stylesheet" href="../styles.css">
+<body>
+
+    <center>
+        <h1 style="font-family: Oswald;">Hoşgeldiniz</h1>
+        <button onclick="window.location.href='/'">Ana Sayfaya Git</button>
+    </center>
+
+    <center>
+    <h1><strong>Çizim Alanı</strong></h1>
+    <hr>
+    <div class="resim" id="resim">
+        <h1 style="color:rgb(238, 255, 0)">Good Days</h1><br>
+        <hr>
+        <img src="kaynaklar/gooday.jfif">
+        <hr>
+    </div>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const showimage1 = urlParams.get("showimage1")
+        if (showimage1 === "ok") {
+            const element=document.createElement("img")
+            element.src="kaynaklar/resim1.png";
+            element.width=800;
+            const div=document.getElementById("resim");
+            div.appendChild(element);
+            div.appendChild(document.createElement("hr"));
+            console.log("image added!");
+        }
+    </script>
+    <h1><strong>Animasyon Alanı</strong></h1>
+    <hr>
+    <h1> The Escape by Kerem ATA</h1>
+    <hr>
+    <iframe width="789" height="526" src="https://www.youtube.com/embed/9T_JydJzgTk" title="Escape (Kaç)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <h1>Yürüyüş By Kerem ATA</h1>
+    <iframe width="1059" height="240" src="https://www.youtube.com/embed/HbO5ZtJRSMo" title="Yürüyüş - ASCII animasyon (Walking - ASCII animation)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <h1>RTE & PEPSİ</h1>
+    <hr>
+    <iframe width="790" height="444" src="https://www.youtube.com/embed/xQLGKpvchJA" title="RTE & PEPSİ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </center>
+</body>
+</html>
