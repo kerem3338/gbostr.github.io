@@ -29,9 +29,9 @@
 	<script>
 	const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        const showimage1 = urlParams.get("reddit")
+        const red = urlParams.get("reddit")
 		console.log(urlParams);
-        if (showimage1 === "false") {
+        if (red === "false") {
 			const reddit=document.getElementById("reddit");
 			reddit.onclick="alert('Bakımdayız');";
 		}

@@ -3,12 +3,22 @@
         <title>Zoda's creator area</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+<style>
+    hr {
+        width:500px;
+    }
+    img {
+        border: #000 solid;
+    }
+</style>
 <link rel="stylesheet" href="../styles.css">
-<body>
+<body id="body">
 
     <center>
         <h1 style="font-family: Oswald;">Hoşgeldiniz</h1>
         <button onclick="window.location.href='/'">Ana Sayfaya Git</button>
+        <button onclick="const body=document.getElementById('body');body.style.background='rgb(127,127,127)';">Arkaplanı Değiştir</button>
+        <button onclick="window.location.reload()">Sayfayı yeniden yükle</button>
     </center>
 
     <center>
@@ -19,7 +29,9 @@
         <hr>
         <img src="kaynaklar/gooday.jfif">
         <hr>
+        <img src="kaynaklar/mono_render.png">
     </div>
+    
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -34,7 +46,10 @@
             console.log("image added!");
         }
     </script>
-    <h1><strong>Animasyon Alanı</strong></h1>
+    <hr>
+    <h1 style="color: rgb(112, 112, 0)"><strong>Animasyon Alanı</strong></h1>
+    <hr>
+    <br><br><br><br><br><br><br><br>
     <hr>
     <h1> The Escape by Kerem ATA</h1>
     <hr>

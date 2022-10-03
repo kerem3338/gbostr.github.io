@@ -1,1 +1,1 @@
-setTimeout(() => alert("Neden Bu kadar bekledin?"), 200000)
+setTimeout(() => alert("Neden Bu kadar bekledin?"), 200000);
