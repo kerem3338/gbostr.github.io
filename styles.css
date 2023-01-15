@@ -17,6 +17,13 @@ body {
 	/*width: width=device-width;
   	left: 500px;*/
 }
+.box {
+	background-color: rgb(112, 106, 106);
+	width: device-width-100;
+	padding: 10px;
+	border: 5px solid gray;
+	margin: 0;
+}
 hr {
             position: relative;
             top: 10px;
@@ -35,4 +42,24 @@ p {
 	font-family: Ariel;
 	font-size: 20px;
 	/*white-space:  pre;*/
+}
+
+.alert {
+    padding: 20px;
+    background-color: #c5564e;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: black;
 }
